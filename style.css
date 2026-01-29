@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* PROFILE CARD */
+.profile-card {
+    background: white;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 35px;
+    text-align: center;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #2c3e50;
+    margin-bottom: 15px;
+}
+
+.profile-card h1 {
+    margin: 10px 0 5px;
+}
+
+.role {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.location {
+    color: #777;
+}
+
+/* BUTTONS */
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 18px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 5px;
+    display: inline-block;
+    transition: 0.3s;
+    color: white;
+}
+
+.facebook {
+    background-color: #1877f2;
+}
+
+.email {
+    background-color: #34495e;
+}
+
+.instagram {
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
+}
+
+.btn:hover {
+    opacity: 0.85;
+}
+
+/* CONTENT SECTIONS */
+.content {
+    background: white;
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 25px 30px;
+    border-radius: 14px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.06);
+}
+
+.content h2 {
+    color: #2c3e50;
+    margin-top: 0;
+}
+
+/* SKILLS */
+.skills-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.box {
+    flex: 1;
+    min-width: 260px;
+}
+
+/* LIST */
+ul {
+    padding-left: 20px;
+}
+
+/* FOOTER */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
